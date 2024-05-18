@@ -1,14 +1,18 @@
 
 body {
-        background-color: white;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        width: 100vw;
-  }
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+            -webkit-user-select:none;  
+            -moz-user-select:none;     
+            -ms-user-select:none;      
+            user-select:none;  
+      }
   
   .widget-container {
         position: relative;
