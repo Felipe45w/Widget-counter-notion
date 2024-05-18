@@ -22,6 +22,3 @@ function reset() {
   localStorage.setItem('counter', counter);
   updateProgressBar();
 }
-
-function RemoveSelection() 
-{if (window.getSelection) {window.getSelection().removeAllRanges();}}
